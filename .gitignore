@@ -1,0 +1,45 @@
+# Data (download separately, see README)
+*.csv
+*.zip
+*.tar.gz
+*.npy
+*.npz
+*.pkl
+data/
+aclImdb/
+
+# Model weights and checkpoints
+*.h5
+*.keras
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+checkpoint-*/
+saved_model/
+
+# Reports
+*.pdf
+
+# Secrets
+.env
+google-services.json
+GoogleService-Info.plist
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+__MACOSX/
+.vscode/
+.idea/
+
+# Local tool config
+.claude/
+CLAUDE.md
